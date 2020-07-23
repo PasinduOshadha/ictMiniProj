@@ -1,0 +1,306 @@
+/* main CSS file */
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover{
+    height: 100vh;
+    background: linear-gradient(291.86deg, rgba(236, 60, 152, 0.79) 20.33%, #6300A0 84.86%), url(.jpg);
+    backdrop-filter: blur(14px);
+}
+
+.welcome{
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcome-title{
+    font-weight: 600;
+    font-size: 4.2em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cover-info{
+    font-weight: 200;
+    font-size: 1em;
+    width: 60%;
+    line-height: 1.6em;
+}
+
+.btn-theme{
+    border-radius: 35px;
+    padding: 7pt 32pt 7pt 32pt;
+}
+
+.btn-cover{
+    background-color: #fff;
+    border: none;
+    color: #6300A0;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border:1px solid #fff;
+    outline: none;
+}
+
+.btn-cover:hover{
+    background-color: #eee;
+    border: 1px solid #fff;
+    color: rgb(77, 2, 124);
+}
+
+.btn-cover:active,
+.btn-cover:focus,
+.btn-cover:focus-within,
+.btn-cover:visited{
+    background-color: #eee;
+    border: 1px solid #fff;
+    color: rgb(77, 2, 124);
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-navbar{
+    border-radius: 35px;
+    padding: 5px 30px 5px 30px;
+}
+
+.about{
+    height: 100vh;
+    background-attachment: #eee;
+}
+
+.logo-container{
+    height: 60%;
+}
+
+.about-info{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.our-story{
+    color: #333;
+    font-weight: 700 !important;
+    font-size: 3.1em;
+}
+
+.our-story::after{
+    content:'Our Story';
+    display: block;
+    font-weight: 800;
+    color: rgba(51, 51, 51, 0.1);
+    font-size:2em;
+    position: absolute;
+    left: 5%;
+    top: -18%;
+}
+
+.our-services{
+    color: #333;
+    font-weight: 700 !important;
+    font-size: 3.1em;
+}
+
+.our-services::after{
+    content:'Our Services';
+    display: block;
+    font-weight: 800;
+    color: rgba(51, 51, 51, 0.1);
+    font-size:2em;
+    position: absolute;
+    left: 5%;
+    top: -18%;    
+}
+
+.services{
+    background-color: #eee;
+}
+
+.pricing-section{
+    background: linear-gradient(180deg, rgba(204, 7, 124, 0.85) 0%, rgba(70, 14, 114, 0.85) 92.2%);
+}
+
+.pricing-title{
+    color:rgba(225, 225, 225, 0.3);
+    font-weight: 700 !important;
+    font-size: 3.1em;
+}
+
+.pricing-title::after{
+    content:'Our Pricing';
+    display: block;
+    font-weight: 800;
+    color: #ffffff1c;
+    font-size:2em;
+    position: absolute;
+    left: 1%;
+    top: 0%;    
+}
+
+.price::before{
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-30px, 10px);
+    
+}
+
+.price-list-link{
+    text-decoration:underline;
+    
+}
+
+.form-wrapper{
+    background: #FB34AA;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    transform: scale(0.9);
+}
+
+.form-group input[type=text]{
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.form-group input[type=text]:active, .form-group input[type=text]:focus, .form-group input[type=text]:focus-within{
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-group textarea{
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.form-group input[type=text]::placeholder{
+    color: #fff;
+}
+
+.form-group textarea::placeholder{
+    color: #fff;
+}
+
+.form-group textarea:active, .form-group textarea:focus, .form-group textarea.btn-cover:focus-within{
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn-send{
+    background-color: #fff;
+    color: #FB34AA;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border: none;
+    outline: none;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06);
+    transition:  all ease-in-out 0.3s;
+}
+
+.btn-send:hover{
+    border: 2px solid #fff;
+    background-color:#FB34AA;
+    color: #fff;
+}
+
+.btn-send::after{
+    content: '';
+    background-image: url('../img/dashicons-arrow-right-alt-pink.png');
+    height: 24px;
+    width: 24px;
+    /* background-color: red; */
+    position: absolute;
+    transform: translateX(10px);
+    background-size: contain;
+}
+
+.btn-send:hover::after{
+    content: '';
+    background-image: url('../img/dashicons-arrow-right-alt.png');
+    height: 24px;
+    width: 24px;
+    /* background-color: red; */
+    position: absolute;
+    transform: translateX(15px);
+    background-size: contain;
+}
+
+.contact-title{
+    color: #111;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+}
+
+.contact-title::after{
+    content:'Contact Us';
+    display: block;
+    font-weight: 800;
+    color: rgba(51, 51, 51, 0.1);
+    font-size:2em;
+    position: absolute;
+    left: 5%;
+    top: 0%; 
+}
+
+.bg-black{
+    background-color: #111;
+}
+
+
+
+.gallery-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+
+}
+
+.gallery-section{
+    background: linear-gradient(180deg, #58287E 0%, #280445 100%);
+}
+
+.gallery-title{
+    font-weight: bold;
+    font-size: 3.1em;
+}
+
+.gallery-title::after{
+    content:'Beauty Gallery';
+    display: block;
+    font-weight: 800;
+    color: #ffffff1c;
+    font-size:2em;
+    position: absolute;
+    left: 1%;
+    top: -70%; 
+}

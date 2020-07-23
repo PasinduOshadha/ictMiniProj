@@ -1,0 +1,88 @@
+/* styles for booking form */
+
+/* google web fonts - poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-screen{
+    background: linear-gradient(292.84deg, rgba(250, 90, 108, 0.8) 11.61%, rgba(238, 10, 137, 0.8) 77.95%), url('../img/booking-bg.jpg'), #EEEEEE;
+    /* height:100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.form-container{
+    background-color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.booking-header{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+    text-shadow: 0px 2px 5px rgba(170, 108, 108, 0.7);
+}
+
+.booking-title{
+    font-family: 'poppins' , sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.booking-desc{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.booking-form-title{
+    font-weight: 600;
+}
+
+.booking-form-desc{
+    font-size:14px;
+    font-weight: 300;
+}
+
+.theme-btn{
+    background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    color: #fff !important;
+}
+
+.booking-submit-btn{
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 42px !important;
+    padding-right: 42px !important;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06) !important;
+}
+
+
+.form-control{
+    border-color: red !important;
+}
+
+.custom-file-control:read-only , .form-control:read-only{
+    background: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.custom-file-control:read-only:focus , .form-control:read-only:focus{
+    background:linear-gradient(0deg,#009688 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0) !important;
+}
+
