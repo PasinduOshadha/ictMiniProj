@@ -26,7 +26,7 @@
         <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item pl-2 pr-2">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#">Our Services</a>
       </li>
       <li class="nav-item pl-2 pr-2">
         <a class="nav-link" href="#">Contact</a>
