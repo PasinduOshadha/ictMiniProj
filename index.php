@@ -29,7 +29,7 @@
         <a class="nav-link" href="#">Our Services</a>
       </li>
       <li class="nav-item pl-2 pr-2">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">Contact Us</a>
       </li>
       <li class="nav-item pl-2 pr-2">
         <a class="btn btn-primary btn-navbar" href="#">Book Now</a>
